@@ -56,28 +56,6 @@ For each delivery location, system will check for the corresponding pickup locat
 
 Clarke-Wright (CW) algorithm is used to find the initial solution. CW algorithm is a best way to findout the initial solutions for the veicle routing problems [(GLLRP)](https://doi.org/10.1016/j.tre.2020.102118). Time windows and vehicle capacity constraints are considered while computing this initial soultion.Then a genetic algorithm based approach which takes this initial soultion as input is used to find the optimal solution. 
 
-Initial solution is computed using CW Algorithm.
-
-**Steps for CW Algorithm:**
-
-1. Assign initial distance saving values and routes (as many as number of nodes)
-2. Assign vehicles to each location
-3. Calculate distance savings of new vehicle route formed by any two routes (savings = d_io + d_oj - d_ij ; i,j >= 1 and i != j , here o represent depot, i,j index of nodes)
-4. Sort these distance savings in descending order
-5. Check for constraints (capacity and time window), if new route meets the constraints, go to step 6, o/w n=n+1 and repeat step 5
-6. Generate new vehicle route, whise distance saving are maximum
-7. Update distance savings through fusion of vehicles
-8. Generate new route with two routes, whose savings are maximum.
-9. n=1
-10. Check for constraints,if met, go to step 11. o/w return to step 7
-11. n=n+1
-12. Generate  new vehicle route, whise distance saving are maximum
-13. If there exist a route that serves only one, then go back to step 7, o/w step 4
-14. Output service route of each vehicle
-
-**Genetic Algorithm based approach to optimize route**
-
-Solution obtained form the CW algorithm is used as the initial solution. That is to initialize the pospulation, CW algorithm is used. 
 
 Please visit this [Notebook for the algorithm](). 
 

@@ -54,6 +54,7 @@ Initial solution is computed using CW Algorithm.
 
 Solution obtained form the CW algorithm is used as the initial solution. That is to initialize the pospulation, CW algorithm is used. 
 
+Please visit this [Notebook for the algorithm](). 
 
 
 

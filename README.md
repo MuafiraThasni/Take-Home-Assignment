@@ -57,7 +57,7 @@ For each delivery location, system will check for the corresponding pickup locat
 Clarke-Wright (CW) algorithm is used to find the initial solution. CW algorithm is a best way to findout the initial solutions for the veicle routing problems [(GLLRP)](https://doi.org/10.1016/j.tre.2020.102118). Time windows and vehicle capacity constraints are considered while computing this initial soultion.Then a genetic algorithm based approach which takes this initial soultion as input is used to find the optimal solution. 
 
 
-Please visit this [Notebook for the algorithm](). 
+Please visit this [Notebook for the algorithm](https://github.com/MuafiraThasni/Take-Home-Assignment/blob/main/source_code_notebook.md). 
 
 
 

@@ -609,14 +609,14 @@ The algorithm can be run by calling required functions as follows.
 
 
 ```python
-generations = 2500
-population_size = 50
-crossover_rate = 0.05
-heuristic_mutate_rate = 0.05
-inversion_mutate_rate = 0.05
-depot_move_mutate_rate = 0
-best_insertion_mutate_rate = 0.1
-route_merge_rate = 0.05
+generations = #2500
+population_size =# 50
+crossover_rate = #0.05
+heuristic_mutate_rate =# 0.05
+inversion_mutate_rate = #0.05
+depot_move_mutate_rate = #0
+best_insertion_mutate_rate =# 0.1
+route_merge_rate =# 0.05
 
 set_population_size(population_size)
 initialize()

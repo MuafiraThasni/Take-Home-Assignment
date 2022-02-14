@@ -14,7 +14,7 @@ Given problem can be formulated as a Multiple Pickup and delivery vehicle routin
 
 ## Solution Methodology
 
-My solution proposes a two stage algorithm with order clustering first and then vehicle routing optimization.  Vehicle grouping is based on it's starting position. For convinience of usage, the term 'depot' is used to indicate vehicle's starting location. ( Assuming there are multiple vehicle depots for this logistics, in which vehicle's are waiting for the delivery orders). Genetic algorithm in combination of Clarke-Wright algorithm is used for vehicle routing optimization, for each groups. 
+My solution proposes a two stage algorithm with order clustering first and then vehicle routing optimization.  Vehicle grouping is based on it's starting position. For convinience of usage, the term 'depot' is used to indicate vehicle's starting location. ( Assuming there are multiple vehicle depots for this logistics, in which vehicle's are waiting for the delivery orders). Genetic algorithm in combination of Clarke-Wright algorithm is used for vehicle routing optimization, for each groups[(MDPDPRS)](https://doi.org/10.1155/2021/5182989)
 
 **Order Clustering**
 
@@ -23,7 +23,7 @@ Closest depot can be computed according to the travel time which can be obtained
 
 **Vehicle Routing Optimization**
 
-Clarke-Wright (CW) algorithm is used to find the initial solution. CW algorithm is a best way to findout the initial solutons for the veicle routing problems [(YongWang)](https://doi.org/10.1016/j.tre.2020.102118). Time windows and vehicle capacity constraints are considered while computing this initial soultion.Then a genetic algorithm based approach which takes this initial soultion as input is used to find the optimal solution. 
+Clarke-Wright (CW) algorithm is used to find the initial solution. CW algorithm is a best way to findout the initial solutions for the veicle routing problems [(GLLRP)](https://doi.org/10.1016/j.tre.2020.102118). Time windows and vehicle capacity constraints are considered while computing this initial soultion.Then a genetic algorithm based approach which takes this initial soultion as input is used to find the optimal solution. 
 
 [*Detailed solution explanation*]()
 

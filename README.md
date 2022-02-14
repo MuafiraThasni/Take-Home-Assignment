@@ -23,7 +23,9 @@ Closest depot can be computed according to the travel time which can be obtained
 
 **Vehicle Routing Optimization**
 
-Clarke-Wright (CW) algorithm is used to find the initial solution. CW algorithm is a best way to findout the initial solutons for the veicle routing problems [YongWang](https://doi.org/10.1016/j.tre.2020.102118)
+Clarke-Wright (CW) algorithm is used to find the initial solution. CW algorithm is a best way to findout the initial solutons for the veicle routing problems [(YongWang)](https://doi.org/10.1016/j.tre.2020.102118). Time windows and vehicle capacity constraints are considered while computing this initial soultion.Then a genetic algorithm based approach which takes this initial soultion as input is used to find the optimal solution. 
+
+[*Detailed solution explanation*]()
 
 
 
